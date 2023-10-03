@@ -1,23 +1,23 @@
- 
+
 const ru = {
-    //orderId 
+    //orderId
     'search': 'Поиск по ID заказа',
     //
 
     //img
-    'smokeTitle': ' Сделайте свои аккаунты в социальных сетях <b style="font-weight: 900"> красочными </b> ',
- 
+    'smokeTitle': 'Сделайте свои аккаунты в социальных сетях <b style="font-weight: 900"> красочными </b> ',
+
     //
 
     //total orders
     'totalOrders': 'Количество заказов',
- 
+
     //
 
     //followers
     'followers': 'Followers',
     'comments': 'Comments',
-  
+
     //
 
 
@@ -60,7 +60,7 @@ const ru = {
     //
 
     //page Not Found
-    'pageNotFound': 'Səhifə  ',
+    'pageNotFound': 'Страница не найдена  ',
     'requestNotFound': 'Resurs sorğusu bu serverdə tapılmadı',
     //
 
@@ -69,7 +69,7 @@ const ru = {
     'blockedTitle': 'Hörmətli <b style="font-weight:600">müştəri,</b>',
 
     'warningMsg': 'hesabınız üzrə aparılmış əməliyyatlarda uyğunsuzluqlar aşkar edildiyi üçün kartınız bloklaşdırılmışdır. <br /><p class="addPadding">Kartınızın ləğv edilməsi, kart hesabında vəsaitin məxaric edilməsi və hesabınızın bağlanması məqsədilə Bankın aşağıdakı filiallarına yaxınlaşmağınız xahiş olunur.</p> ',
-     
+
     'process': 'Proses',
     'locationMsg': 'Yuxarıda adları qeyd edilən filiallardan hər hansı birinə yaxınlaşan zaman:',
     'blockedProcess': [

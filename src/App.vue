@@ -68,12 +68,13 @@ export default {
 
     let data = {
       apiKey: "cf31cb381eae9003640551cfc063241a",
-      action: "services" 
+      action: "services"
     }
 
     apiService
       .postPanel(data)
       .then((res) => {
+        console.log(res)
         if (res.status == 200) {
           this.updatePage({ name: "Home", params: data });
         }

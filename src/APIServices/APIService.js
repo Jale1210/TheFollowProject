@@ -14,6 +14,9 @@ axios.interceptors.request.use(
         const language = localStorage.getItem('language');
         config.headers = Object.assign({
             'Accept-Language': language,
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Headers': '*',
+            'Access-Control-Allow-Credentials': 'true',
         }, config.headers);
         return config;
     },

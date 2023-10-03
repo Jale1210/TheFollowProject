@@ -4,7 +4,7 @@
       <div style="width: 266px">
         <p class="followTxt">
           Follow.az
-          <span class="copyright">© 2020-2021 | info@follow.az</span>
+          <span class="copyright">© 2020-2023 | info@follow.az</span>
         </p>
 
         <div class="social">
@@ -27,13 +27,13 @@
     </div>
   </div>
 </template>
-  
+
   <script>
 export default {
   name: "Footer",
 };
 </script>
-  
+
   <!-- Add "scoped" attribute to limit CSS to this component only -->
   <style scoped lang="scss">
 .footer {
@@ -122,4 +122,3 @@ height: 13.425px;
 
 }
 </style>
-  

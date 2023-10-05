@@ -6,6 +6,9 @@ import store from '@/store/index'
 import {SocialPanel} from './SocialPanel.js'
 
 
+
+
+
 export default {
     ...SocialPanel
 }
@@ -13,6 +16,10 @@ axios.interceptors.request.use(
     config => {
         const language = localStorage.getItem('language');
         config.headers = Object.assign({
+
+
+
+
             'Accept-Language': language,
             "Access-Control-Allow-Origin": "*",
             'Access-Control-Allow-Headers': '*',

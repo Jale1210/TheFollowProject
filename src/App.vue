@@ -60,6 +60,7 @@ export default {
       orderId: "",
     };
   },
+
   mounted() {
     window.scrollTo({ top: 0, behavior: "smooth" });
 
@@ -70,6 +71,7 @@ export default {
       apiKey: "cf31cb381eae9003640551cfc063241a",
       action: "services"
     }
+
 
     apiService
       .postPanel(data)
